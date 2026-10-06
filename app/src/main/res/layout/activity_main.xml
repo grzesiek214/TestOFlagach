@@ -16,12 +16,14 @@
     -->
 
     <TextView
+        android:id="@+id/textViewPytanie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="32sp"
         android:layout_margin="16dp"
         android:padding="8dp"
         android:textColor="#DCDCDC"
+        android:textAlignment="center"
         android:text="Wybierz kolory, których nie ma we fladze Polski" />
 
     <LinearLayout
@@ -36,6 +38,7 @@
             android:backgroundTint="#4CAF50"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:onClick="sprawdzUkryj"
             android:text=""/>
 
         <Button
@@ -45,7 +48,7 @@
             android:backgroundTint="@color/white"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:onClick="sprwadzOk"
+            android:onClick="sprawdzOk"
             android:text=""/>
 
         <Button
@@ -55,6 +58,7 @@
             android:backgroundTint="#FFEB3B"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:onClick="sprawdzUkryj"
             android:text=""/>
     </LinearLayout>
 
@@ -69,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#000000"
+            android:onClick="sprawdzUkryj"
             android:text="" />
 
         <Button
@@ -77,6 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#3F51B5"
+            android:onClick="sprawdzUkryj"
             android:text="" />
 
         <Button
@@ -85,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#E70000"
-            android:onClick="sprwadzOk"
+            android:onClick="sprawdzOk"
             android:text="" />
     </LinearLayout>
 
