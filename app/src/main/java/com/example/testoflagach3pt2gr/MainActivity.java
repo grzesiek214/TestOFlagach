@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sprawdzOk(View view) {
         Toast.makeText(MainActivity.this,
-                "ten kolor nalezy do flagi Polski, nie klikaj go",
+                R.string.ostrzezenie,
                 Toast.LENGTH_SHORT)
                 .show();
     }
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (licznikKlikniec == 4) {
             //komunikat i zmiana wygladu
-            textViewPytanie.setText("Brawo, to jest flaga Polski!");
+            textViewPytanie.setText(R.string.podsuwowanie);
         }
     }
 }

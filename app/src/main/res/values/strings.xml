@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">TestOFlagach3pt2gr</string>
+    <string name="polecenie">Wybierz kolory, których nie ma we fladze Polski</string>
+    <string name="ostrzezenie">Ten kolor jest we fladze polski</string>
+    <string name="podsuwowanie">Brawo to jest flaga Polski</string>
 </resources>

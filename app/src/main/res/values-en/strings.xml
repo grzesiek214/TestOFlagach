@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestOFlagach3pt2gr</string>
+    <string name="polecenie">Choose color that Polish flag has</string>
+    <string name="ostrzezenie">This color is in polish flag</string>
+    <string name="podsuwowanie">Bravo</string>
+</resources>
