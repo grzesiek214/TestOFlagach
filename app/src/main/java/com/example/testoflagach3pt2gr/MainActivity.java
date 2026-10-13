@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (licznikKlikniec == 4) {
             //komunikat i zmiana wygladu
-            textViewPytanie.setText(R.string.podsuwowanie);
+            textViewPytanie.setText(R.string.podsumowanie);
         }
     }
 }
